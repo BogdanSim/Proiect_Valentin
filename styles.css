@@ -1,0 +1,401 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+root{
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+}
+
+
+ul{
+    list-style: none;
+}
+
+body, html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+
+}
+/** Navigation bar **/
+nav{
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 10%;
+    background: #293B59;
+
+
+}
+.navLogo{
+    margin-left: 4vw;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: .625rem 1.25rem;
+    margin-left: 3vw;
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+
+}
+nav ul li a:hover{
+    color: #FF9900;
+    text-decoration: none;
+    font-weight: bold;
+}
+.separate{
+    align-items: center;
+    display: inline-block;
+    margin-right: 3vw;
+}
+
+.signIn{
+    padding: .75rem 1.85rem;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+.signIn:hover{
+    color: #FF9900;
+    text-decoration: none;
+    font-weight: bold;
+}
+.yellowBtn{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #FF9900;
+    padding: .5rem 1rem .5rem;
+    color: black;
+    border-radius: .25rem;
+    border: 2px solid #FF9900;
+    width: 6.75rem;
+    height: 2.125rem;
+    font-weight: bold;
+    
+}
+.yellowBtn:hover{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+/** Hero section **/
+
+.hero{
+    height: 90vh;
+    background-image: linear-gradient(360deg, rgba(41, 59, 89, 0.93) 16.95%, rgba(41, 59, 89, 0.7254) 46.95%, rgba(41, 59, 89, 0) 100%), url('assets/hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.leftside, .rightside{
+    height: 29vh;
+    width: 100%;
+    margin-top: 45vh;
+}
+.rightside{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: -10vw;
+}
+
+.rightside p{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1rem;
+
+}
+.title{
+
+    color: white;
+    margin-left: 10vw;
+    font-family:'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3.75rem;
+    line-height: 4.18rem;
+    letter-spacing: -0.02em;
+
+}
+.description{
+    font-size: 1.625rem;
+    font-family:'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    color: white;
+    margin-left: 10vw;
+    margin-top: 4vh;
+    margin-bottom: 7vh;
+}
+.yellowBtn2{
+    padding: 1.25rem 2rem 1.25rem 2rem;
+    border-radius: .5rem;
+    background-color: #FF9900;
+    color: black;
+    margin-left: 10vw;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+.yellowBtn2:hover{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.vl{
+    width: 1px;
+    height: 39vh;
+    background-color: rgba(255,255,255, 0.5);
+    margin-left: 60vw;
+    margin-top: -16vw;
+}
+
+/** BLue section - previous testimonials CSS located in a separate css file **/
+
+.bluesection{
+    background-color: #385C99;
+    color:white;
+}
+.bluetitle{
+    padding-top: 8vh;
+    padding-bottom: 5vh;
+    padding-left:7vw;
+    font-size: 3rem;
+}
+.bluesection p{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.5 rem;
+    line-height: 1.6rem;
+    padding-left: 7vw;
+    padding-top: 3vh;
+}
+.bluesection img{
+    width: 15.25rem;
+    height: auto;
+}
+.bluesection p:last-child{
+    padding-bottom: 5vh;
+}
+.slider{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 6vh;
+}
+
+/** Contractors section **/
+.contractor{
+    margin-bottom: 10vh;
+}
+.work{
+    font-family: 'Open Sans', sans-serif;
+    color: #293B59;
+    font-weight: 300;
+    size: 4rem;
+    line-height: 4.2rem;
+    margin-left: 7vw;
+    margin-top: 12vh;
+}
+.field{
+    font-weight: 300;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    color: black;
+    margin-left: 7vw;
+    margin-top: 5vh;
+    margin-bottom: 7vh;
+}
+.transparentbtn{
+    padding: 1.2rem 2rem;
+    border: .25rem solid #FF9900;
+    border-radius: .5rem;
+    margin-left: 7vw;
+    color: black;
+}
+.transparentbtn:hover{
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contractor h4{
+    color: #293B59;
+    padding-top: 5vh;
+    margin-left: 4vh;
+}
+.thickline{
+    width: 51vw;
+    height: .27rem;
+    background-color: #293B59;
+}
+.thinline{
+    width: 51vw;
+    height: 2px;
+    background-color: #293B59;
+
+}
+.shape{
+    margin-top: 10vh;
+    margin-left: 6vw;
+    background-color: #FF9900;
+    border-radius: 50% 26% 22% 52% / 66% 53% 23% 25%;
+    width: 31.5rem;
+    height: 21.8rem;
+
+
+}
+.worker {
+    position: absolute;
+    padding-bottom: 10vh;
+    z-index: 1;
+}
+
+.materials{
+    background-color: #ADD2FF;
+    height: 85vh;
+}
+.materials h1{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 4rem;
+    line-height: 4rem;
+    color: #293B59;
+    margin-top: 15vh;
+    margin-left: 10vw;
+    margin-bottom: 5vh;
+}
+.solo{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    margin-left: 9vw;
+    margin-bottom: 10vh;
+}
+.dot{
+    margin-left: 8vw;
+    margin-bottom: 5vh;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+}
+.dot3{
+    margin-left: 8vw;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    margin-bottom: 10vh;
+}
+.computer{
+    width: 66.3rem;
+    height: 34.2 rem;
+    margin-left: 13.1vw;
+    margin-top: 15vh;
+}
+.yellowBtn3{
+    padding: 1.25rem 2rem 1.25rem 2rem;
+    border-radius: .5rem;
+    background-color: #FF9900;
+    color: black;
+    margin-left: 9vw;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+.yellowBtn3:hover{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+footer{
+    background-color:#293B59 ;
+    border-top: .25rem solid silver;
+}
+.platform{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1rem;
+    color: white;
+    margin-left: 8.5vw;
+}
+.platform p{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: -0.02em;
+}
+
+.lines{
+    width: 8.4vw;
+    height: 1px;
+    background-color:white ;
+}
+footer .row h4{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1rem;
+    color: white;
+    margin-top: 10vh;
+
+}
+footer .row p {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: .8rem;
+    line-height: 1.37rem;
+    letter-spacing: -0.02em;
+    color: white;
+}
+
+.socials{
+    margin-left: 25vw;
+    margin-top: 10vh;
+}
+.socials p{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1rem;
+    letter-spacing: -0.02em;
+    color: white;
+}
+
+
+.linkedin{
+    color: #797979;
+    font-size: 2.5rem;
+    margin-left: 3vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+.facebook{
+    color: #797979;
+    font-size: 2.5rem;
+    margin-left: 3vw;
+}
